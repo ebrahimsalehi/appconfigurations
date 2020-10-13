@@ -1,4 +1,5 @@
 {
 "message":"hi",
-"merchantURL":"http://nowhere.com"
+"merchantURL":"http://nowhere.com",
+"anotherproperty":"val"
 }
