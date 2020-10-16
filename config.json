@@ -1,5 +1,43 @@
 {
-"message":"hi",
-"merchantURL":"http://nowhere.com",
-"anotherproperty":"val"
+  "BatchConfiguration": {
+    "Alerting": {
+      "SupportedReports": [
+        {
+          "name": "OUTREACH",
+          "expectedDeliveries": [
+            "0 0 11 * * *",
+            "0 0 9 * * MON-FRI",
+            "0 0 10 16 10 ?"
+          ]
+        }
+      ]
+    }
+  },
+  "FacadeConfiguration": {
+    "Merchants": [
+      {
+        "name": "merchant1",
+        "KeyID": "b02c72f5390c441c897c433d54ad9997"
+      },
+      {
+        "name": "merchant2",
+        "KeyID": "c345248970938457abd3452342bcadef"
+      }
+    ],
+    "Networks": [
+      {
+        "id": "98f234",
+        "SupportedReports": [
+          "OUTREACH",
+          "CHURN"
+        ]
+      },
+      {
+        "id": "12a543",
+        "SupportedReports": [
+          "UNVERIFIED"
+        ]
+      }
+    ]
+  }
 }
