@@ -1,5 +1,5 @@
-prop=value
 {
+  "DummyProperty":"dummy value",
   "BatchConfiguration": {
     "Alerting": {
       "SupportedReports": [
