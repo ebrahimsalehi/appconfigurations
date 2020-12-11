@@ -1,3 +1,4 @@
 {
-  "DummyProperty":"EXPECTED"
+  "DummyProperty":"EXPECTED",
+  "key2", "value2"
 }
